@@ -3,4 +3,6 @@ read f;
 echo "enter 2nd number"
 read t;
 addition=$(($f + $t))
+sub=$(($f - $t))
 echo "$addition"
+echo "$sub"
